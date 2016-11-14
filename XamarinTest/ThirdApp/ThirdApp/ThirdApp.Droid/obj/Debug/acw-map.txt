@@ -1,4 +1,0 @@
-ThirdApp.Droid.MainActivity, ThirdApp.Droid;md504335df52b300a778a806cf1d85f845a.MainActivity
-ThirdApp.Droid.MainActivity, ThirdApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md504335df52b300a778a806cf1d85f845a.MainActivity
-ThirdApp.Droid.MainActivity;md504335df52b300a778a806cf1d85f845a.MainActivity
-thirdapp.droid.MainActivity;md504335df52b300a778a806cf1d85f845a.MainActivity
