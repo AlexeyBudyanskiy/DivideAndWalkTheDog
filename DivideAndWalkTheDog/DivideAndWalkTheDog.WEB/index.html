@@ -1,0 +1,88 @@
+<!doctype html>
+<html ng-app="divideAndWalkTheDogApp">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="DivideAndWalkTheDog">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Divide & Walk the Dog</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../../Content/styles.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="white darken-1 nav-wrapper" role="navigation">
+            <div class="nav-wrapper container black-text">
+                <a id="logo-container" href="#" class="brand-logo grey-text">Divide & Walk the Dog</a>
+                <ul id="nav-mobile" class="side-nav">
+                    <li>Divide & Walk the Dog</li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
+                    <li><a href="#/register" class="grey-text">Registration</a></li>
+                    <li><a href="#/login" class="grey-text">Log In</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <ng-view></ng-view>
+    </main>
+
+
+    <footer class="page-footer white">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Divide & Walk the Dog</h5>
+                    <p class="grey-text">Sharing of responibility!</p>
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="gray-text">Publisher</h5>
+                    <ul>
+                        <li><a class="gray-text" href="#!">Link 1</a></li>
+                        <li><a class="gray-text" href="#!">Link 2</a></li>
+                        <li><a class="gray-text" href="#!">Link 3</a></li>
+                        <li><a class="gray-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="gray-text">Connect</h5>
+                    <ul>
+                        <li><a class="gray-text" href="#!">Link 1</a></li>
+                        <li><a class="gray-text" href="#!">Link 2</a></li>
+                        <li><a class="gray-text" href="#!">Link 3</a></li>
+                        <li><a class="gray-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container black-text">
+                Made by Oleksii Budianskyi
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--<script src="js/dataService.js"></script>-->
+    <script src="js/controllers/RegisterControllers.js"></script>
+    <script src="js/controllers/LoginControllers.js"></script>
+    <script src="js/controllers/RequestsController.js"></script>
+    <script src="js/controllers/RequestController.js"></script>
+</body>
+
+</html>

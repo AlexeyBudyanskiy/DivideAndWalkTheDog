@@ -1,0 +1,12 @@
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\googlemap.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\Mono.Android.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\mscorlib.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\System.Core.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\System.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\System.Xml.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\Xamarin.Android.Support.v4.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\Xamarin.GooglePlayServices.Base.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\Xamarin.GooglePlayServices.Basement.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\Xamarin.GooglePlayServices.Maps.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\System.Runtime.Serialization.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\googlemap\googlemap\obj\Release\android\assets\System.ServiceModel.Internals.dll

@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col s12 m6 push-m3" id="create-comment">
+        <div ng-controller="RegisterController">
+            <p ng-bind="response.Message"></p>
+            <p ng-bind="response.author"></p>
+
+            <form name="registerForm">
+                <h4 class="grey-text center">Create a new account.</h4>
+                <hr />
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <div class="col-md-10">
+                        <input id="email" type="email" class="validate" name="Email" maxlength="50" ng-model="user.Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <div class="col-md-10">
+                        <input id="password" type="password" class="validate" name="Password" ng-model="user.Password" maxlength="50" minlength="3"
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="ConfirmPassword">Confirm Password</label>
+                    <div class="col-md-10">
+                        <input id="confirmpassword" type="password" class="validate" name="ConfirmPassword" ng-model="user.ConfirmPassword" maxlength="50"
+                            class="validate" minlength="3" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10 center">
+                        <button class="btn waves-effect waves-light center" type="submit" value="Register" ng-click="register(user, registerForm)">Register
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

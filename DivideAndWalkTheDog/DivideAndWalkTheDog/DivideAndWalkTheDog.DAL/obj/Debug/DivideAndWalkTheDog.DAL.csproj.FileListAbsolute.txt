@@ -1,0 +1,14 @@
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\obj\Debug\DivideAndWalkTheDog.DAL.csprojResolveAssemblyReference.cache
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\DivideAndWalkTheDog.DAL.dll.config
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\DivideAndWalkTheDog.DAL.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\DivideAndWalkTheDog.DAL.pdb
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\EntityFramework.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\EntityFramework.xml
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\obj\Debug\DivideAndWalkTheDog.DAL.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.DAL\obj\Debug\DivideAndWalkTheDog.DAL.pdb

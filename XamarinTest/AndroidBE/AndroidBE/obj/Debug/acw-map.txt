@@ -1,0 +1,12 @@
+AndroidBE.MainActivity, AndroidBE;md5a4e1012dde63104587338258309dee87.MainActivity
+AndroidBE.MainActivity, AndroidBE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a4e1012dde63104587338258309dee87.MainActivity
+AndroidBE.MainActivity;md5a4e1012dde63104587338258309dee87.MainActivity
+androidbe.MainActivity;md5a4e1012dde63104587338258309dee87.MainActivity
+Robotics.Mobile.Core.Bluetooth.LE.Adapter, Robotics.Mobile.Core.Droid;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.Adapter, Robotics.Mobile.Core.Droid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.Adapter;md5023215d593d44f50438f36261234faca.Adapter
+robotics.mobile.core.bluetooth.le.Adapter;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback, Robotics.Mobile.Core.Droid;md5023215d593d44f50438f36261234faca.GattCallback
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback, Robotics.Mobile.Core.Droid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5023215d593d44f50438f36261234faca.GattCallback
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback;md5023215d593d44f50438f36261234faca.GattCallback
+robotics.mobile.core.bluetooth.le.GattCallback;md5023215d593d44f50438f36261234faca.GattCallback

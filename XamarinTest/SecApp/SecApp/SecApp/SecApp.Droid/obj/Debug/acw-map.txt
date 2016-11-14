@@ -1,0 +1,24 @@
+SecApp.Droid.MainActivity, SecApp.Droid;md55ee29fd21cbb4d2ee5f4302f9144eada.MainActivity
+SecApp.Droid.MainActivity, SecApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ee29fd21cbb4d2ee5f4302f9144eada.MainActivity
+SecApp.Droid.MainActivity;md55ee29fd21cbb4d2ee5f4302f9144eada.MainActivity
+secapp.droid.MainActivity;md55ee29fd21cbb4d2ee5f4302f9144eada.MainActivity
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IHeartrateListenerImplementor, MiBandSDK;mono.com.jellygom.miband_sdk.MiBandIO.Listener.HeartrateListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IHeartrateListenerImplementor, MiBandSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.jellygom.miband_sdk.MiBandIO.Listener.HeartrateListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IHeartrateListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.HeartrateListenerImplementor
+mono.com.jellygom.miband_sdk.MiBandIO.Listener.HeartrateListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.HeartrateListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.INotifyListenerImplementor, MiBandSDK;mono.com.jellygom.miband_sdk.MiBandIO.Listener.NotifyListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.INotifyListenerImplementor, MiBandSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.jellygom.miband_sdk.MiBandIO.Listener.NotifyListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.INotifyListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.NotifyListenerImplementor
+mono.com.jellygom.miband_sdk.MiBandIO.Listener.NotifyListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.NotifyListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IRealtimeStepListenerImplementor, MiBandSDK;mono.com.jellygom.miband_sdk.MiBandIO.Listener.RealtimeStepListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IRealtimeStepListenerImplementor, MiBandSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.jellygom.miband_sdk.MiBandIO.Listener.RealtimeStepListenerImplementor
+Com.Jellygom.Miband_sdk.MiBandIO.Listener.IRealtimeStepListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.RealtimeStepListenerImplementor
+mono.com.jellygom.miband_sdk.MiBandIO.Listener.RealtimeStepListenerImplementor;mono.com.jellygom.miband_sdk.MiBandIO.Listener.RealtimeStepListenerImplementor
+Robotics.Mobile.Core.Bluetooth.LE.Adapter, Robotics.Mobile.Core.Droid;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.Adapter, Robotics.Mobile.Core.Droid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.Adapter;md5023215d593d44f50438f36261234faca.Adapter
+robotics.mobile.core.bluetooth.le.Adapter;md5023215d593d44f50438f36261234faca.Adapter
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback, Robotics.Mobile.Core.Droid;md5023215d593d44f50438f36261234faca.GattCallback
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback, Robotics.Mobile.Core.Droid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5023215d593d44f50438f36261234faca.GattCallback
+Robotics.Mobile.Core.Bluetooth.LE.GattCallback;md5023215d593d44f50438f36261234faca.GattCallback
+robotics.mobile.core.bluetooth.le.GattCallback;md5023215d593d44f50438f36261234faca.GattCallback

@@ -1,0 +1,17 @@
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.pdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.csprojResolveAssemblyReference.cache
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.pdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\obj\Debug\ThirdApp.dll.mdb
+D:\Study\TERM_5\SoftwareArchitecture\XamarinTest\ThirdApp\ThirdApp\ThirdApp\bin\Debug\ThirdApp.dll.mdb
