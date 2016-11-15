@@ -1,0 +1,58 @@
+<div class="row" ng-controller="RequestController">
+    <div class="col m3">
+        <div class="row">
+            <div class="col m8 push-m2">
+                <a href="#">
+                    <div class="userinfo fixed">
+                        <img src="img/no_photo.jpg" class="circle responsive-img " alt="User photo" />
+                        <h5 class="grey-text center">Alexey Budyanskiy</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col m9">
+        <div class="col m10 push-m1" class="request">
+            <h5 class="grey-text center">Address: {{request.Address}}</h5>
+            <hr/>
+            <p class="grey-text center">{{request.Text}}</p>
+            <div class="row">
+                <div class="col m6" class="request">
+                    <div class="row">
+                        <div class="col m12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="http://localhost:42598/Content/Images/{{request.Dog.Photo}}">
+                                    <span class="card-title">{{request.Dog.Breed}}</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>{{request.Dog.AdditionalInfo}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6" class="request">
+                    <div class="row">
+                        <div class="col m12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="http://localhost:42598/Content/Images/{{request.User.Photo}}">
+                                    <span class="card-title">{{request.User.Name}}</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>{{request.User.AdditionalInfo}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <diV class=center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Message
+                    <i class="material-icons right">send</i>
+                </button>
+            </diV>
+        </div>
+    </div>
+</div>
