@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.Http;
 using AutoMapper;
 using DivideAndWalkTheDog.BLL.DTO;
@@ -42,6 +43,34 @@ namespace DivideAndWalkTheDog.WEB.Controllers
         public IHttpActionResult Get(int id)
         {
             return Json(_mapperFromDTO.Map<DogViewModel>(_dogService.GetDog(id)));
+        }
+
+        [HttpGet]
+        [Route("user/{userId}/dog")]
+        public IHttpActionResult GetUserDog(int userId)
+        {
+            var dogDto = _dogService.GetByUserId(userId);
+            var dogViewModel = _mapperFromDTO.Map<DogViewModel>(dogDto);
+
+            return Json(dogViewModel);
+        }
+
+        [HttpPost]
+        [Route("dogs/create")]
+        public IHttpActionResult Craete(DogViewModel dog)
+        {
+            try
+            {
+                var dogDto = _mapperToDTO.Map<DogDTO>(dog);
+                _dogService.CreateDog(dogDto);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
         }
     }
 }

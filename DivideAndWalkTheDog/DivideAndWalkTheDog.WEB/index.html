@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="../../Content/styles.css">
+    <link rel="stylesheet" href="css/landingStyle.css">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -21,13 +21,23 @@
     <div class="navbar-fixed">
         <nav class="white darken-1 nav-wrapper" role="navigation">
             <div class="nav-wrapper container black-text">
-                <a id="logo-container" href="#" class="brand-logo grey-text">Divide & Walk the Dog</a>
+                <div ng-if="User">
+                    <a id="logo-container" href="#/requests" class="brand-logo grey-text">Divide & Walk the Dog</a>
+                </div>
+                <div ng-if="!User">
+                    <a id="logo-container" href="#/landing" class="brand-logo grey-text">Divide & Walk the Dog</a>
+                </div>
                 <ul id="nav-mobile" class="side-nav">
                     <li>Divide & Walk the Dog</li>
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
-                    <li><a href="#/register" class="grey-text">Registration</a></li>
-                    <li><a href="#/login" class="grey-text">Log In</a></li>
+                    <div ng-if="User">
+                        <li>{{User.Name}}</li>
+                    </div>
+                    <div ng-if="!User">
+                        <li><a href="#/register" class="grey-text">Registration</a></li>
+                        <li><a href="#/login" class="grey-text">Log In</a></li>
+                    </div>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
@@ -73,16 +83,21 @@
             </div>
         </div>
     </footer>
-    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="js/lib/angular.min.js"></script>
     <script src="js/lib/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="js/lib/init.js"></script>
+    <script src="js/viewScripts/addCreaterequestFields.js"></script>
+
     <script src="js/app.js"></script>
     <!--<script src="js/dataService.js"></script>-->
     <script src="js/controllers/RegisterControllers.js"></script>
-    <script src="js/controllers/LoginControllers.js"></script>
+    <script src="js/controllers/LoginController.js"></script>
     <script src="js/controllers/RequestsController.js"></script>
     <script src="js/controllers/RequestController.js"></script>
+
+
 </body>
 
 </html>

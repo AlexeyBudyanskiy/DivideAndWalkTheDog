@@ -94,8 +94,14 @@ namespace DivideAndWalkTheDog.BLL.Services
             {
                 throw new ValidationException("Invalid User", "User");
             }
+
+            var dog = Database.Dogs.Get(request.Dog.Id);
+            if (dog == null)
+            {
+                throw new ValidationException("Invalid Dog", "Dog");
+            }
             request.User = user;
-            request.Dog.User = user;
+            request.Dog = dog;
             Database.Requests.Create(request);
             Database.Save();
         }

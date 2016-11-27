@@ -405,7 +405,7 @@ namespace DivideAndWalkTheDog.WEB.Controllers
                 {
                     foreach (string error in result.Errors)
                     {
-                        ModelState.AddModelError("", error);
+                        ModelState.AddModelError("Error", error);
                     }
                 }
 

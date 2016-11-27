@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using DivideAndWalkTheDog.BLL.DTO;
@@ -46,8 +47,9 @@ namespace DivideAndWalkTheDog.BLL.Services
             {
                 throw new ValidationException("Invalid application user Id", "applicationId");
             }
-
-            return _mapperToDTO.Map<UserDTO>(Database.Users.Find(x=>x.ApplicationUserId.Equals(applicationId)).FirstOrDefault());
+            var user = Database.Users.Find(x => x.ApplicationUserId.Equals(applicationId)).FirstOrDefault();
+            var userDto = _mapperToDTO.Map<UserDTO>(user);
+            return userDto;
         }
 
         public IEnumerable<UserDTO> GetAllUsers()
@@ -68,6 +70,11 @@ namespace DivideAndWalkTheDog.BLL.Services
             if (string.IsNullOrWhiteSpace(user.Name))
             {
                 throw new ValidationException("User name is null or empty", "Name");
+            }
+
+            if (user.Birthday < DateTime.UtcNow.AddYears(-110) || user.Birthday > DateTime.UtcNow.AddDays(1))
+            {
+                user.Birthday = DateTime.UtcNow;
             }
             
             Database.Users.Create(_mapperFromDTO.Map<UserInfo>(user));

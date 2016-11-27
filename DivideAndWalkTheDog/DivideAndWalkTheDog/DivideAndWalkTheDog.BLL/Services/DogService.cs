@@ -47,26 +47,36 @@ namespace DivideAndWalkTheDog.BLL.Services
             return _mapperToDTO.Map<IEnumerable<DogDTO>>(dogs);
         }
 
-        public void CreateDog(DogDTO dog)
+        public DogDTO GetByUserId(int userId)
         {
-            if (dog == null)
+            var dog = Database.Dogs.Find(x => x.User.Id == userId).FirstOrDefault();
+            var dogDto = _mapperToDTO.Map<DogDTO>(dog);
+            return dogDto;
+        }
+
+        public void CreateDog(DogDTO dogDto)
+        {
+            if (dogDto == null)
             {
                 throw new ValidationException("Undefined dog", "");
             }
-            if (string.IsNullOrWhiteSpace(dog.Name))
+            if (string.IsNullOrWhiteSpace(dogDto.Name))
             {
                 throw new ValidationException("Dog name is null or empty", "Name");
             }
-            if (string.IsNullOrWhiteSpace(dog.Breed))
+            if (string.IsNullOrWhiteSpace(dogDto.Breed))
             {
                 throw new ValidationException("Dog breed is null or empty", "Breed");
             }
-            if (dog.User == null || dog.User.Id == 0)
+            if (dogDto.User == null || dogDto.User.Id == 0)
             {
                 throw new ValidationException("Dog User is null or invalid", "User");
             }
+            var dog = _mapperFromDTO.Map<Dog>(dogDto);
 
-            Database.Dogs.Create(_mapperFromDTO.Map<Dog>(dog));
+            dog.User = Database.Users.Get(dogDto.User.Id);
+
+            Database.Dogs.Create(dog);
             Database.Save();
         }
 

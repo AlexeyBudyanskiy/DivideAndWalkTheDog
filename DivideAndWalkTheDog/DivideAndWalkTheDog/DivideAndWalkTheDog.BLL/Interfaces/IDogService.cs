@@ -10,5 +10,6 @@ namespace DivideAndWalkTheDog.BLL.Interfaces
         void CreateDog(DogDTO dog);
         void EditDog(DogDTO dog);
         IEnumerable<DogDTO> FindDogs(SearchDogDTO dog);
+        DogDTO GetByUserId(int userId);
     }
 }

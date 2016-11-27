@@ -2,9 +2,17 @@
     <div class="col m3">
         <div class="row">
             <div class="col m8 push-m2">
-                <div class="userinfo fixed">
-                    <img src="img/no_photo.jpg" class="circle responsive-img " alt="User photo"/>
-                    <h5 class="grey-text center">Alexey Budyanskiy</h5>
+                <div class="row">
+                    <div class="col m6 pus-m3">
+                        <div class="userinfo fixed responsive-img">
+                            <img src="img/no_photo.jpg" class="circle responsive-img " alt="User photo" />
+                            <h5 class="grey-text center">{{User.Name}}</h5>
+                            <h6 class="grey-text center">Phone: {{User.Phone}}</h6>
+                            <h6 class="grey-text center">Dog breed: {{Dog.Breed}}</h6>
+                            <br>
+                            <a href="#/requests/create" class="center">Create request</a>
+                        </div>                     
+                    </div>
                 </div>
             </div>
         </div>

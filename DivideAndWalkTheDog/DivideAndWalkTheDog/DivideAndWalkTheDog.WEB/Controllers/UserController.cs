@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Results;
 using AutoMapper;
@@ -47,6 +43,22 @@ namespace DivideAndWalkTheDog.WEB.Controllers
         public IHttpActionResult GetAll()
         {
             return Json(_mapperFromDTO.Map<IEnumerable<UserViewModel>>(_userService.GetAllUsers()));
+        }
+
+        [HttpGet]
+        [Route("user")]
+        public IHttpActionResult Get()
+        {
+            try
+            {
+                var userDto = _userService.GetUserByApplicationId(User.Identity.GetUserId());
+                var user = _mapperFromDTO.Map<UserViewModel>(userDto);
+                return Json(user);
+            }
+            catch (ValidationException)
+            {
+                return new BadRequestErrorMessageResult("Invalid Id", this);
+            }
         }
 
         [HttpGet]

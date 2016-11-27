@@ -208,3 +208,6 @@ D:\My\Leshinsky\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog\Divi
 D:\My\Leshinsky\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\obj\Debug\DivideAndWalkTheDog.WEB.csprojResolveAssemblyReference.cache
 D:\My\Leshinsky\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\obj\Debug\DivideAndWalkTheDog.WEB.dll
 D:\My\Leshinsky\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\obj\Debug\DivideAndWalkTheDog.WEB.pdb
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\bin\System.Web.Cors.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\bin\System.Web.Http.Cors.dll
+D:\Study\TERM_5\SoftwareArchitecture\DivideAndWalkTheDog\DivideAndWalkTheDog\DivideAndWalkTheDog.WEB\bin\System.Web.Http.Cors.xml

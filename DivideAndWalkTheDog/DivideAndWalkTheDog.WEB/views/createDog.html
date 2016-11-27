@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col s12 m6 push-m3" id="create-comment">
+        <div ng-controller="RegisterController">
+
+            <form name="createDogForm">
+                <h4 class="grey-text center">Dog info</h4>
+                <hr />
+                <p class="red-text center" ng-bind="errorMessage"></p>
+                <div class="form-group">
+                    <label for="username">Name</label>
+                    <div class="col-md-10">
+                        <input id="username" type="text" class="validate" name="Name" maxlength="100" ng-model="dog.Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Breed</label>
+                    <div class="col-md-10">
+                        <input id="phone" type="text" class="validate" name="Phone" ng-model="dog.Breed" maxlength="50" class="validate" minlength="3"
+                            required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="additional-info">Additional Info</label>
+                    <div class="input-field col-md-10">
+                        <textarea id="additional-info" class="materialize-textarea" ng-model="dog.AdditionalInfo"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file" ng-model="dog.Photo">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10 center">
+                        <button class="btn waves-effect waves-light center" type="submit" value="Accept" ng-click="createDog(dog, createDogForm)">Accept
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+  $('.datepicker').pickadate({
+    selectMonths: true,
+    selectYears: 15
+  });
+
+    $('#additional-info').trigger('autoresize');
+
+</script>

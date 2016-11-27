@@ -2,29 +2,117 @@
     <div class="col m3">
         <div class="row">
             <div class="col m8 push-m2">
-                <div class="userinfo fixed">
-                    <img src="img/no_photo.jpg" class="circle responsive-img " alt="User photo"/>
-                    <h5 class="grey-text center">Alexey Budyanskiy</h5>
+                <div class="row">
+                    <div class="col m6 pus-m3">
+                        <div class="userinfo fixed responsive-img">
+                            <img src="img/no_photo.jpg" class="circle responsive-img " alt="User photo" />
+                            <h5 class="grey-text center">{{User.Name}}</h5>
+                            <h6 class="grey-text center">Phone: {{User.Phone}}</h6>
+                            <h6 class="grey-text center">Dog breed: {{Dog.Breed}}</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col m9">
-        <div class="col m7 push-m1">
-            <div ng-repeat="request in requests">
-                <div class="card white darken-1">
-                    <div class="card-content">
-                        <span class="card-title">Addres: {{request.Address}}</span>
-                        <p>{{request.Text}}</p>
-                        <p>Dog breed: {{request.Dog.Breed}}</p>
+        <div class="row">
+            <div class="col m10 push-m1" class="request">
+                <h5 class="grey-text center">Address: {{request.Address}}</h5>
+                <p class="grey-text">{{request.Text}}</p>
+                <div class="row">
+                    <div class="col m6" class="request">
+                        <div class="row">
+                            <div class="col m12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img ng-if="request.Dog.Photo" src="http://localhost:42598/Content/Images/{{request.Dog.Photo}}">
+                                        <img ng-if="!request.Dog.Photo" src="img/no-dog-photo.png">
+                                        <span class="card-title grey-text">{{request.Dog.Breed}}</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>{{request.Dog.AdditionalInfo}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-action">
-                        <a href="#/request/{{request.Id}}">Details</a>
+
+                    <div class="col m6" class="request">
+                        <div class="row">
+                            <div class="col m12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img ng-if="request.User.Photo" src="http://localhost:42598/Content/Images/{{request.User.Photo}}">
+                                        <img ng-if="!request.User.Photo" src="img/no_photo.jpg">
+                                        <span class="card-title grey-text">{{request.User.Name}}</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>{{request.User.AdditionalInfo}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="col m10 push-m1">
+                <h5 class="center grey-text">Days when user can walk</h5>
+                <table class="table table-striped striped">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>From</th>
+                            <th>To</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in request.TimePeriodsWhenUserCanWalk">
+                            <td ng-if="item.Day == 1">Monday</td>
+                            <td ng-if="item.Day == 2">Tuesday</td>
+                            <td ng-if="item.Day == 3">Wednesday</td>
+                            <td ng-if="item.Day == 4">Thursday</td>
+                            <td ng-if="item.Day == 5">Friday</td>
+                            <td ng-if="item.Day == 6">Saturday</td>
+                            <td ng-if="item.Day == 7">Sunday</td>
+                            <td>{{("" + item.DayTimeStart).replace(".",":")}}</td>
+                            <td>{{("" + item.DayTimeFinish).replace(".",":")}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m10 push-m1">
+                <h5 class="center grey-text">Days when user can`t walk</h5>
+                <table class="table table-striped striped">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>From</th>
+                            <th>To</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in request.TimePeriodsWhenUserNeedWalk">
+                            <td ng-if="item.Day == 1">Monday</td>
+                            <td ng-if="item.Day == 2">Tuesday</td>
+                            <td ng-if="item.Day == 3">Wednesday</td>
+                            <td ng-if="item.Day == 4">Thursday</td>
+                            <td ng-if="item.Day == 5">Friday</td>
+                            <td ng-if="item.Day == 6">Saturday</td>
+                            <td ng-if="item.Day == 7">Sunday</td>
+                            <td>{{("" + item.DayTimeStart).replace(".",":")}}</td>
+                            <td>{{("" + item.DayTimeFinish).replace(".",":")}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row center grey-text">
+            <h4>Phone: {{request.User.Phone}}</h4>
         </div>
     </div>
 </div>

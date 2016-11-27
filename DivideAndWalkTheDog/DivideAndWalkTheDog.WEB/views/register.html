@@ -1,19 +1,20 @@
 <div class="row">
     <div class="col s12 m6 push-m3" id="create-comment">
         <div ng-controller="RegisterController">
-            <p ng-bind="response.Message"></p>
-            <p ng-bind="response.author"></p>
-
+            
             <form name="registerForm">
-                <h4 class="grey-text center">Create a new account.</h4>
+                <h4 class="grey-text center">Create new account.</h4>
                 <hr />
-                <div class="form-group">
+                <p class="red-text center" ng-bind="errorMessage"></p>
+                <div class="form-group">           
+                    <p class="red-text" ng-bind="errorEmailMessage"></p>
                     <label for="Email">Email</label>
                     <div class="col-md-10">
                         <input id="email" type="email" class="validate" name="Email" maxlength="50" ng-model="user.Email" required>
                     </div>
                 </div>
                 <div class="form-group">
+                    <p class="red-text" ng-bind="errorPasswordMessage"></p>
                     <label for="Password">Password</label>
                     <div class="col-md-10">
                         <input id="password" type="password" class="validate" name="Password" ng-model="user.Password" maxlength="50" minlength="3"
@@ -21,6 +22,7 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <p class="red-text" ng-bind="errorConfirmPasswordMessage"></p>
                     <label for="ConfirmPassword">Confirm Password</label>
                     <div class="col-md-10">
                         <input id="confirmpassword" type="password" class="validate" name="ConfirmPassword" ng-model="user.ConfirmPassword" maxlength="50"
