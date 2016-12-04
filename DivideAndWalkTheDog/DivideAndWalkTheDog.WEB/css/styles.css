@@ -25,3 +25,12 @@
 .parallax img{
   display: block !important;
 }
+
+.user-info-link{
+  color: orange;
+  margin-top: 10px;
+}
+
+.user-info-link:hover{
+  text-decoration: underline;
+}

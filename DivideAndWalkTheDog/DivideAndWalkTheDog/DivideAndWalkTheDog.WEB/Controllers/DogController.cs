@@ -69,8 +69,7 @@ namespace DivideAndWalkTheDog.WEB.Controllers
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
-            }
-            
+            }         
         }
     }
 }
