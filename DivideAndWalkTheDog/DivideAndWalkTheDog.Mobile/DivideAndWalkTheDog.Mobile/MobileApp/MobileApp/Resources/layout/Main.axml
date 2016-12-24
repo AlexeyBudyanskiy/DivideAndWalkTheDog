@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_mainTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80pt"
+                    android:layout_height="80pt"
+                    android:src="@drawable/requestPhoto1"
+                    android:id="@+id/img_store1"
+                    android:contentDescription="Request1 photo" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Lenina str, 2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="13pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_store1" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Anna Severin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company1" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Breed: Gerk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company1" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Call"
+                    android:layout_width="80pt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:id="@+id/btn_Call" />
+                <Button
+                    android:text="Show on map"
+                    android:layout_width="80pt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:id="@+id/btn_showMap1" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80pt"
+                    android:layout_height="80pt"
+                    android:src="@drawable/requestPhoto2"
+                    android:id="@+id/img_store2"
+                    android:contentDescription="Request photo 2" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Sumska str, 123/a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="13pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_store2" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Joanna Black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company2" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Breed: Koros"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company2" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Call"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_Call2" />
+                <Button
+                    android:text="Show on map"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_showMap2" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80pt"
+                    android:layout_height="80pt"
+                    android:src="@drawable/requestPhoto3"
+                    android:id="@+id/img_store3"
+                    android:contentDescription="Request photo 3" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Colomenskaya str, 12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="13pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_store3" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Ketty Older"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company3" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Breed: Kathy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company3" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Call"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_Call3" />
+                <Button
+                    android:text="Show on map"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_showMap3" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80pt"
+                    android:layout_height="80pt"
+                    android:src="@drawable/requestPhoto4"
+                    android:id="@+id/img_store4"
+                    android:contentDescription="Request photo 4" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Naukova str, 19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="13pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_store4" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Helena Pretty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company4" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Breed: Kathy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company4" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Call"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_Call4" />
+                <Button
+                    android:text="Show on map"
+                    android:layout_marginLeft="5pt"
+                    android:layout_width="80pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_showMap4" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80pt"
+                    android:layout_height="80pt"
+                    android:src="@drawable/requestPhoto5"
+                    android:id="@+id/img_store5"
+                    android:contentDescription="Request photo 5" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Moskovsky ave, 15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="13pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_store5" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Yen Somerholder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company5" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Breed: Hover"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10pt"
+                            android:layout_marginTop="8pt"
+                            android:textSize="0.15in"
+                            android:id="@+id/textView_company5" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Call"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_Call5" />
+                <Button
+                    android:text="Show on map"
+                    android:layout_width="80pt"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_showMap5" />
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+    <TextView
+        android:text="Requests near you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5pt"
+        android:textSize="15pt"
+        android:id="@+id/textView_mainTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
